@@ -249,11 +249,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a58baa4e3ddc0ac4d8b7619c56762aa0, type: 3}
---- !u!4 &167795282 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7864210397847489914, guid: 153bea604bff19843afcc2ed443e8bea, type: 3}
-  m_PrefabInstance: {fileID: 5438768438791596620}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &181899203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1079,6 +1074,11 @@ PrefabInstance:
 --- !u!1 &501009495 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8917563347305144616, guid: 153bea604bff19843afcc2ed443e8bea, type: 3}
+  m_PrefabInstance: {fileID: 5438768438791596620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &501009496 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7084197100006120630, guid: 153bea604bff19843afcc2ed443e8bea, type: 3}
   m_PrefabInstance: {fileID: 5438768438791596620}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &523615977
@@ -3284,6 +3284,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.424, y: 0.615, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1653030640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653030641}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1653030641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653030640}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 459.08847, y: 288.8215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5658,6 +5689,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4572c8954e62fc443b44fdafcf8b27b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3796338773684944540 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7507008152965368538, guid: 11a177a59e74eee4f91005964a5fd6ed, type: 3}
+  m_PrefabInstance: {fileID: 3796338773684944538}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13f331123157c3448498871eb5ec56e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4906029685416840813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5713,7 +5755,7 @@ PrefabInstance:
     - target: {fileID: 6920363510502138063, guid: 6aaceb8388242b34d948507291a105ae, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
-      objectReference: {fileID: 167795282}
+      objectReference: {fileID: 501009496}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5731,6 +5773,10 @@ PrefabInstance:
       propertyPath: uIItemSlotInfo
       value: 
       objectReference: {fileID: 3796338773684944539}
+    - target: {fileID: 5664371602170210885, guid: 153bea604bff19843afcc2ed443e8bea, type: 3}
+      propertyPath: uISlotDragIcon
+      value: 
+      objectReference: {fileID: 3796338773684944540}
     - target: {fileID: 5664371602170210885, guid: 153bea604bff19843afcc2ed443e8bea, type: 3}
       propertyPath: uIPickupItemPrompt
       value: 
@@ -5885,6 +5931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickupItemPrompt
       objectReference: {fileID: 0}
+    - target: {fileID: 3572313027331891673, guid: fd44869ebca9e814ab78952092e2deb0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6536176266477858366, guid: fd44869ebca9e814ab78952092e2deb0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6036,3 +6086,4 @@ SceneRoots:
   - {fileID: 949162037}
   - {fileID: 1677849578}
   - {fileID: 1500912960}
+  - {fileID: 1653030641}
